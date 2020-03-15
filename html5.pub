@@ -6,6 +6,8 @@
 	<meta name="viewport" content="width=device-whidth, initial-scale=1.0"/>
     </head>
     <body>
+
+
         <header>
            <img title="curso HTML" alt="[curso HTML]" src="img/download"/> 
 	   <h1>curso HTML</h1>
@@ -18,12 +20,39 @@
                <li><a href="#contato" title="contat sobre o curso de html5">fale conosco</li>
 	   </ul>
         </header>
+
+
+
         <main>
+	    <article>
+                <header>
+                    <h1>bem-vindo(a) ao curso gratuito de html5</h1>
+	            <p class="tagline">vc esta pronto para aprender html5, css, e jquery de forma gratuita, descomplicada e do jeito certo?confira o nosso curso gratuito de html5</p>
+	            <div>
+
+	            </div>
+                </header>
+            </article>
     
         </main>
+
+
+
         <footer>
-       
+           <h1>curso html5</h1>
+	   <nav>
+               <h1>upinside treinamentos</h1>
+	       <ul>
+	           <li><a target="_blank" title="upinside treinamentos" href>up inside</a></li>
+	           <li>/</li>
+                   <li><a target="_blank" title="upinside treinamentos no facebook" href>up inside</a></li>
+	           <li>/</li>
+                   <li><a target="_blank" title="upinside treinamentosno youtube" href>up inside</a></li>
+               </ul>
+	   </nav>
         </footer>	
 	
+
+
    </body>
 </html>
