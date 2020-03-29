@@ -1,0 +1,187 @@
+<!DOCTYhtml>
+<html>
+
+
+  <head>
+    <meta charset="UTF8"/>
+    <title> cursode html5 </title>
+    <meta name="description" content=" esta página web está sendo desnvolvida no curso de html5 da monitoria"/>
+    <meta name="viewport" content="width=device-width initial-scale=1.0"/>
+    favicon
+    stile
+    font
+  </head>
+
+
+  <body>
+
+    <header>
+     <img title="curso de html5 da monitoria" alt="[curso de html5 da monitoria]" crc="fotos/foto-de-gato-01" />
+     <h1> cursode html5 </h1>
+     <ul>
+       <li> <a href="#home" title="cursode html5"> home </li>
+       <li> <a href="#curso" title="sobre o curso de html5"> o curso </li>
+       <li> <a target="_blank" href="https://www.upinside.com.br/cursos/html5-do-jeito-certo" title="work series- html5 do jeito certo"> work series </li>
+       <li> <a href="#aulas" title="confira video aulas do curso de html5"> video aulas </li>
+       <li> <a href="#contato" title="fale conosco sobre o curso de html5"> fale conosco </li>
+     </ul>
+    </header>
+
+
+    <main>
+
+     <ardicle>
+       <header>
+         <h1> bem vindo(a) ao curso gratuito de html5 </h1>
+         <p class="tagline">voê está pronto para aprende html5,css, outris tipos de limguagem e ainda ter a oportunidade de trabalhar, junto de uma equipe, em uma das áreas que mais cresce na atualidade? confira a monitoria de programaçao patrao e sia </p
+         <div>
+           <div class="fb-like" data-href="https://www.facebook.com/upinside/" data-width="" data-layout="button_count" data-action="like" data-size="small" data-share="false"></div>
+           <div class="fb-share-button" data-href="https://www.upinside.com.br/cursos/html5-do-jeito-certo" data-layout="button_count" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.upinside.com.br%2Fcursos%2Fhtml5-do-jeito-certo&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Compartilhar</a></div>
+         </div>
+       </header>
+       <div>
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/ocr0B8JlDMc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       </div>
+     </ardicle>
+
+     <section>
+       <header>
+         <h1>curso de html5</h1>
+         <p class="tagline"> confira oq vc vai aprender no curso de html5! </p>
+       </header>
+       <article>
+         <img title="curso de html5 html e css" src="fotos/fotoDeGatoParaMain01" alt="[curso de html5 html e css]">
+         <h1>html e html5!</h1>
+         <p>aprenda a ultilizar html e html5 do jeito certo</p>
+         <span> <time datetime="<?= date('y-m-d');?>"><?=date('d/m/y á\s h:i\h\s');?></time> em <b> mateiras </b> </span>
+       </article>
+       <ardicle>
+        <img title="foto de gato 02" alt="[foto de gato 02]" src="fotos/fotoDeGatoParaMain02">
+        <h1>foto de gatos 02 </h1>
+        <p>aprenda a programar com fotos de gatos pq voce nao tem as mesmas fotos do curso</p>
+        <span> <time datetime="<?= date('y-m-d');?>"><?=date('d/m/y á\s h:i\h\s');?></time> em <b> mateiras </b> </span>
+       </article>
+       <ardicle>
+        <img title="foto de gato 03" alt="[foto de gato 03]" src="fotos/fotoDeGatoParaMain03">
+        <h1>fotos de gatos 03</h1>
+        <p>aprenda a programar com fotos de gatos pq voce nao tem as mesmas fotos do curso 02</p>
+        <span> <time datetime="<?= date('y-m-d');?>"><?=date('d/m/y á\s h:i\h\s');?></time> em <b> mateiras </b> </span>
+       </article>
+       <ardicle>
+        <img title="foto de gato 04" alt="[foto de gato 03]" src="fotos/fotoDeGatoParaMain04">
+        <h1>fotos de gotos 04</h1>
+        <p>aprenda a programar com fotos de gatos pq voce nao tem as mesmas fotos do curso 03</p>
+        <span> <time datetime="<?= date('y-m-d');?>"><?=date('d/m/y á\s h:i\h\s');?></time> em <b> mateiras </b> </span>
+       </article>
+
+       <footer>
+         <img title="confira o curso completo de htam5 do jeito certo" src="fotos/fotoDeGatoParaMain-footer.png" alt="[confira o curso completo de htam5 do jeito certo]">
+         <h1>curso html5 do jeito certo</h1>
+         <p>confira o curso Ps. nao copiei aquilo tudo que ele botou</p>
+         <a target="_blank" title="conheça o curso de html5 do jeito certo" href="https://www.upinside.com.br/cursos/html5-do-jeito-certo" >conhecer agora</a>
+       </footer>
+     </section>
+
+     <section>
+       <header>
+         <h1>aulas do curso</h1>
+         <p>confira as aulas do curso de html5 da monitoria</p>
+       </header>
+
+       <div>
+         <article>
+           <img title="curso de html5 html e css" src="fotos/fotoDeGatoParaMain01" alt="[curso de html5 html e css]">
+           <h1>html e html5!</h1>
+           <p>aprenda a ultilizar html e html5 do jeito certo</p>
+         </article>
+         <ardicle>
+          <img title="foto de gato 02" alt="[foto de gato 02]" src="fotos/fotoDeGatoParaMain02">
+          <h1>foto de gatos 02 </h1>
+          <p>aprenda a programar com fotos de gatos pq voce nao tem as mesmas fotos do curso</p>
+         </article>
+         <ardicle>
+          <img title="foto de gato 03" alt="[foto de gato 03]" src="fotos/fotoDeGatoParaMain03">
+          <h1>fotos de gatos 03</h1>
+          <p>aprenda a programar com fotos de gatos pq voce nao tem as mesmas fotos do curso 02</p>
+         </article>
+         <article>
+           <img title="curso de html5 html e css" src="fotos/fotoDeGatoParaMain01" alt="[curso de html5 html e css]">
+           <h1>html e html5!</h1>
+           <p>aprenda a ultilizar html e html5 do jeito certo</p>
+         </article>
+         <ardicle>
+          <img title="foto de gato 02" alt="[foto de gato 02]" src="fotos/fotoDeGatoParaMain02">
+          <h1>foto de gatos 02 </h1>
+          <p>aprenda a programar com fotos de gatos pq voce nao tem as mesmas fotos do curso</p>
+         </article>
+         <ardicle>
+          <img title="foto de gato 03" alt="[foto de gato 03]" src="fotos/fotoDeGatoParaMain03">
+          <h1>fotos de gatos 03</h1>
+          <p>aprenda a programar com fotos de gatos pq voce nao tem as mesmas fotos do curso 02</p>
+         </article>
+       </div>
+
+       <aside>
+         <header>
+           <h1>comentários</h1>
+         </header>
+
+         <ardicle>
+           <img title="comentário de patrao cerqueira" alt="[comentário de patrao cerqueira]" src="fotos/FotoDegatoParaComentário01">
+           <h1><span>comentário de </span> patrao cerqueira </h1>
+           <p>aqui é escrito o comentário</p>
+         </ardicle>
+         <ardicle>
+           <img title="comentario de pessoa aleatória" alt="[comentario de pessoa aleatória]" src="fotos/FotoDegatoParaComentário02">
+           <h1><span>comentário de </span>pessoa aleatória</h1>
+           <p>aqui é escrito o comentario2</p>
+         </ardicle>
+       </aside>
+     </section>
+
+     <article>
+       <header>
+         <h1>entre em contato:</h1>
+         <p class="tagline">este formulário está aqui apenas para estudos do curso de html5</p>
+       </header>
+
+       <form action="" method="post">
+        <label>
+          <span>nome:</span>
+          <input type="text" name="nome" title="informe seu nome!" placeholder="imforme seu nome:" required>
+        </label>
+        <label>
+          <span>e-mail:</span>
+          <input type="email" name="email" title="informe seu e-mail!" placeholder="informe seu e-mail:" required>
+        </label>
+        <label>
+          <span>mensagem:</span>
+          <textarea name="mensagem" rows="3" title="deixe a sua mensagem!" placeholder="deixe a sua mensagem:" required></textarea>
+        </label>
+        <img> <title="imagem de espera" alt="[imagem de espera]" src="fotos/fotoDeGatoParaEspera" </img>
+        <button>enviar!</button>
+       </form>
+     </ardicle>
+
+    </main>
+
+
+    <footer>
+      <h1> curso de html5 </h1>
+      <nav>
+       <h1> upinside treinamentos</h1>
+       <ul>
+       <li> <a target="_blank" href="https://www.upinside.com.br/" title="upinside treinamentos" > upinside </li>
+       <li>|</li>
+       <li> <a target="_blank" href="https://www.facebook.com/upinside/" title="upinside treinamentos no facebook" > upinside no facebook </li>
+       <li>|</li>
+       <li> <a target="_blank" href="https://www.youtube.com/c/RobsonVLeite" title="upinside treinamentos no youtube" > upinside no youtube </li>
+       </ul>
+      </nav>
+    </footer>
+
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v6.0"></script>
+
+  </body>
+</html>
