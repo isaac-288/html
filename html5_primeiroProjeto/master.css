@@ -44,6 +44,7 @@ iframe['style']{
 .clear{clear: both;}
 .fontzero{font-size: 0}
 .border-bottom{padding-bottom: 10px;background-image: url(imagens/line_sidebar.jpg);}
+.border-bottom_destaque{float: left;width: 100%}
 
 /* BIT TITLE */
 .big_title{display:block;margin-bottom: 50px;border-right: 10px solid #ccc;}
@@ -125,3 +126,48 @@ iframe['style']{
 .videoaulas_sidebar_comment p{font-size: 0.8em;}
 
 .videoaulas_sidebar_comment img{float: left;width: 20%;margin-right: 20px;border-radius: 50%;}
+
+/* CONTATO */
+
+.contato{background: #eee;}
+
+.contato header{float: left;width: 30%;}
+
+.contato header h1{font-size: 3em;text-transform: uppercase;font-weight: bold;color: #888;margin: 20px;}
+
+.contato_form{float:right;width: 70%;padding-left: 5%;}
+
+.contato_form label{display: block;width: 100%;margin-bottom: 20px;}
+
+.contato_form span{font-size: 0.7em;display: block;text-transform: uppercase;font-weight: 600;margin-bottom: 10px;}
+
+.contato_form .medium{float: left;width: 48%;}
+
+.contato_form .medium:first-of-type{margin-right: 4%;}
+
+.contato_form input,
+.contato_form textarea{width: 100%;border:none;background: #ccc;padding: 10px;font-family: 'arial', sans-serif;}
+
+.contato_form .btn{border: none;background: #289cb5;padding: 15px 25px;font-weight: 600;font-size: 0.875; float: right;margin-top: 10px;cursor: pointer;color: #fff;}
+
+.contato_form .btn:hover{background: #51c1d9;}
+
+.form_load{float: right;margin-top: 25px;margin-left: 20px;display: none;}
+
+/* FOOTER */
+
+.main_footer{text-align: center;color: #ccc;}
+
+.main_footer .ftcontent{background: #444;padding: 30px;}
+
+.main_footer .title{font-weight: bold;font-size: 2em;}
+
+.main_footer .subtitle{font-weight: bold;font-size: 1.4em;text-transform: uppercase;}
+
+.main_footer_social{display:block;text-transform: uppercase;}
+
+.main_footer_social li{display: inline-block;margin: 0 5px;}
+
+.main_footer_social a{color: #fff;text-transform: uppercase;font-size: 0.8em;}
+
+.main_footer_social a:hover{text-decoration: underline;}
