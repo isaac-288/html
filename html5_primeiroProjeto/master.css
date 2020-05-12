@@ -29,8 +29,12 @@ video,
 iframe,
 iframe['style']{
   max-width: 100%;
-  height: auto;
-}
+  height: auto;}
+
+/* RATIO */
+.ratio{position: relative;padding-bottom: 56.25%; float: left;width: 100%;height: 0;}
+
+.midia {position: absolute;width: 100%;height: 100%; left: 0; top:0;}
 
 /* BOX GERAL */
 .container{float: left;width: 100%;}
@@ -52,3 +56,16 @@ iframe['style']{
 
 .main_menu .specila{color: #f2723e;}
 .main_menu a:hover{background: #f5f5f5;}
+
+  /* DESTAQUE */
+.destaque{background-color: #000; background-image: url(imagens/00.jpg);background-size: cover;background-attachment: fixed;background-position: center top; color: #fff;}
+
+.destaque header{float: left;padding-right: 10px; width: 50%;}
+
+.destaque header h1{font-weight: bold; font-size: 2.2em; margin-top: 20px;}
+
+.destaque .tagline{margin: 35px 0;font-size: 0.875em;}
+
+.destaque .fb-like{margin: 10px;}
+
+.destaque_video{float: right;width: 50%;padding: 10px; background: rgba(255,255,255,0.2);}
